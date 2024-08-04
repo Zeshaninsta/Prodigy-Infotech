@@ -85,7 +85,7 @@ The performance of the model is visualized with:
   joblib.dump(model, 'Model/linear_regression_model.pkl')
   ```
 ## Loading: To load the saved model:
-    ```python
+```python
 import joblib
 model = joblib.load('Model/linear_regression_model.pkl')
-    ```
+```
